@@ -33,9 +33,12 @@ This repository contains the final project for my Master's program in Data Scien
 
 ## Key Results
 
-- **11.73% CAGR (Compound Annual Growth Rate)** from January 2011 to April 2016.
-- Clustering analysis revealed **16% of products as top sellers**, while **23% of stores were lagging** in performance.
-- The forecasting models provided valuable insights into demand patterns, allowing for more effective stock and order planning.
+This project enabled DS Market to make significant strides in becoming a data-driven company. The key outcomes include:
+
+- **Advanced Agile Visualization**: The Power BI dashboard empowered DS Market with dynamic, real-time visual insights, drastically enhancing the company's understanding of its business performance and underlying dynamics.
+- **Targeted Business Strategies**: The clustering analysis revealed clear behavioral patterns for both products and stores, providing DS Market with actionable insights to design more targeted and effective marketing campaigns and business strategies.
+- **Optimized Stock Management**: The sales forecasting model laid the groundwork for a pilot test aimed at optimizing stock management—one of the most critical challenges in the retail industry. By accurately forecasting demand, DS Market can now make informed decisions to reduce lost sales and overstock issues.
+
 
 ## Visuals
 
@@ -69,10 +72,11 @@ This repository contains the final project for my Master's program in Data Scien
 ## Technologies Used
 
 - **Python**: For data analysis and modeling.
-- **Pandas, NumPy, Scikit-learn**: For data manipulation and clustering.
-- **Power BI**: For business intelligence and dashboard creation.
-- **ARIMA, Prophet, XGBoost**: For sales forecasting.
-- **Matplotlib, Seaborn**: For data visualization.
+- **Pandas, NumPy**: For data manipulation and preparation.
+- **Scikit-learn**: For clustering analysis using KMeans.
+- **XGBoost**: For multivariate sales forecasting.
+- **Power BI**: For building interactive dashboards and visualizations.
+- **Matplotlib, Seaborn**: For creating data visualizations and analyzing trends.
 
 ---
 
