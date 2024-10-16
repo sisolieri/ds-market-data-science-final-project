@@ -17,12 +17,19 @@ This repository contains the final project for my Master's program in Data Scien
      - Regional and global market share, along with sales growth, were used to cluster stores.
 
 3. **Sales Forecasting**:  
-   We built multivariate machine learning models to **forecast sales** at a product-store level. These forecasts helped the company plan orders for the next four weeks, using historical sales data. The models predicted key sales metrics, including total units sold and revenue, with performance evaluated by RMSE (Root Mean Squared Error).
+   We built a **multivariate machine learning model using XGBoost** to forecast sales at a product-store level. Given the time constraints, we opted for a functional model suitable for a pilot test, ensuring that the model was capable of generating reliable week-by-week predictions. A common issue in such projects is focusing too much on creating a model that performs well for the first week but fails significantly for weeks 2, 3, and 4, leading to inaccurate and inconsistent forecasts. 
+
+   Our approach aimed at keeping the model relatively simple yet robust, ensuring it could generate consistent predictions even beyond the first week. This was a key focus of our work.  
+   
+   **Future improvements** could involve increasing the model's complexity and the number of features, as well as exploring and comparing alternative models to identify the best-performing one.
+
    - **Key Findings**:
-     - Consolidated stores had the most accurate forecasts with an RMSE of 15.20.
-     - Product categories like "Supermarket" had a lower error rate, while "Home & Garden" showed higher variability.
+     - The model globally had an error between **7 and 10 units**, depending on the prediction horizon (with one-week forecasts being more accurate than those for 2, 3, or 4 weeks).
+     - The **Supermarket** category had the highest RMSE, with average values between **15 and 20** units.
+     - The categories **Home & Garden** and **Accessories** showed much lower RMSEs, around **1 and 4** units.
    
    The forecast results were used to evaluate the stock remaining in stores and identify lost sales opportunities due to under-stocking.
+
 
 ## Key Results
 
