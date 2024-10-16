@@ -44,16 +44,20 @@ This repository contains the final project for my Master's program in Data Scien
    Below are images extracted from the project presentation slides to provide visual insights into the results.
 
    ### Product Clustering
-   ![Product Clustering](./presentation_images/Presentacion_Final-10.png)
+   ![Product Clustering](./presentation_images/Presentacion_Final-14.png)
 
    ### Store Clustering
-   ![Store Clustering](./presentation_images/Presentacion_Final-12.png)
+   ![Store Clustering](./presentation_images/Presentacion_Final-18.png)
 
    ### Forecasting Overview
-   ![Forecasting Overview](./presentation_images/Presentacion_Final-15.png)
+   ![Forecasting Overview](./presentation_images/Presentacion_Final-20.png)
 
    ### Forecasting Accuracy Results
-   ![Forecasting Accuracy](./presentation_images/Presentacion_Final-17.png)
+   ![Forecasting Accuracy](./presentation_images/Presentacion_Final-22.png)
+   ![Forecasting Accuracy](./presentation_images/Presentacion_Final-23.png)
+   ![Forecasting Accuracy](./presentation_images/Presentacion_Final-24.png)
+   ![Forecasting Accuracy](./presentation_images/Presentacion_Final-25.png)
+   
 
 ## Technologies Used
 
